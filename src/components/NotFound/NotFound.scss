@@ -1,0 +1,19 @@
+.not-found{
+
+  &__heading {
+    font-weight: 800;
+    text-transform: capitalize;
+    font-size: 3rem;
+    margin-top: 0;
+    margin-bottom: 1rem;
+    color: white;
+  }
+  
+  &__desc {
+    text-align: center;
+    font-size: 1.2rem;
+    font-weight: 500;
+    margin-top: 0;
+    margin-bottom: 1rem;
+  }
+}

@@ -1,0 +1,21 @@
+.header {
+  padding: 1rem 0;
+  font-size: 1.25rem;
+  position: sticky;
+  &__title {
+    font-size: 1.5rem;
+    font-weight: 550;
+    color: #1de9b6;
+    // text-transform: uppercase;
+  }
+
+  &__link {
+    color: #1de9b6 ;
+    transition: all 0.25s ease-in-out 0s;
+    text-decoration: none;
+
+    &:hover {
+      color: white;
+    }
+  }
+}
