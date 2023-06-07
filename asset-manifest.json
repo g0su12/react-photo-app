@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/react-photo-app/static/css/main.e7ab0538.css",
-    "main.js": "/react-photo-app/static/js/main.50822e2d.js",
+    "main.js": "/react-photo-app/static/js/main.9a95a9e0.js",
     "index.html": "/react-photo-app/index.html",
     "main.e7ab0538.css.map": "/react-photo-app/static/css/main.e7ab0538.css.map",
-    "main.50822e2d.js.map": "/react-photo-app/static/js/main.50822e2d.js.map"
+    "main.9a95a9e0.js.map": "/react-photo-app/static/js/main.9a95a9e0.js.map"
   },
   "entrypoints": [
     "static/css/main.e7ab0538.css",
-    "static/js/main.50822e2d.js"
+    "static/js/main.9a95a9e0.js"
   ]
 }
