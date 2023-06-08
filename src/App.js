@@ -12,11 +12,11 @@ function App() {
     <React.Fragment>
       <HashRouter>
         <Routes>
-          <Route exact path="/" element={<Home />} />
-          <Route path="/photos" element={<Photo />}>
-            <Route path={'/photos/'} element={<Main />} />
-            <Route path={'add'} element={<AddEditPage />} />
-            <Route path={`:photoId`} element={<AddEditPage />} />
+          <Route exact path='/' element={<Home />} />
+          <Route path='/photos' element={<Photo />}>
+            <Route path='/photos/' element={<Main />} />
+            <Route path='add' element={<AddEditPage />} />
+            <Route path=':photoId' element={<AddEditPage />} />
           </Route>
           {/* <Route exact path="/sign-in" element={<SignIn />} /> */}
           <Route path="*" element={<NotFound />} />
