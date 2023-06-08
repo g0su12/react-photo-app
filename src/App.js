@@ -5,20 +5,22 @@ import AddEditPage from 'features/Photo/pages/AddEdit';
 import Main from 'features/Photo/pages/Main';
 import Home from 'pages/Home';
 import React from 'react';
-import { HashRouter, Route } from 'react-router-dom';
+import { HashRouter, Route, Routes } from 'react-router-dom';
 
 function App() {
   return (
     <React.Fragment>
       <HashRouter>
-        <Route exact path="/" element={<Home />} />
-        <Route path="/photos" element={<Photo />}>
-          <Route path={'/photos/'} element={<Main />} />
-          <Route path={'add'} element={<AddEditPage />} />
-          <Route path={`:photoId`} element={<AddEditPage />} />
-        </Route>
-        {/* <Route exact path="/sign-in" element={<SignIn />} /> */}
-        <Route path="*" element={<NotFound />} />
+        <Routes>
+          <Route exact path="/" element={<Home />} />
+          <Route path="/photos" element={<Photo />}>
+            <Route path={'/photos/'} element={<Main />} />
+            <Route path={'add'} element={<AddEditPage />} />
+            <Route path={`:photoId`} element={<AddEditPage />} />
+          </Route>
+          {/* <Route exact path="/sign-in" element={<SignIn />} /> */}
+          <Route path="*" element={<NotFound />} />
+        </Routes>
       </HashRouter>
     </React.Fragment>
   );
